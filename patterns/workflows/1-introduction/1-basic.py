@@ -1,4 +1,9 @@
-import os
+# patterns/workflows/1-introduction
+
+import os, sys
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from openai import OpenAI
 
